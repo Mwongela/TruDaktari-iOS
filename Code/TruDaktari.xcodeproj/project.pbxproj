@@ -24,11 +24,20 @@
 		4EE9024B1964A28600AA3B42 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EE902481964A28600AA3B42 /* Default.png */; };
 		4EE9024C1964A28600AA3B42 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EE902491964A28600AA3B42 /* Default-568h@2x.png */; };
 		4EE9024E1964A29300AA3B42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE9024D1964A29300AA3B42 /* main.m */; };
-		A11022001D523D2A00212284 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A11021FF1D523D2A00212284 /* SWRevealViewController.m */; };
 		A11022021D524A6800212284 /* Female-heath-practitioner-in-hospital-room_Featured-Image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A11022011D524A6800212284 /* Female-heath-practitioner-in-hospital-room_Featured-Image.jpg */; };
 		A11022081D5253F300212284 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A11022071D5253F300212284 /* SearchViewController.m */; };
-		A110220B1D52558C00212284 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A110220A1D52558C00212284 /* HelpViewController.m */; };
 		A110220E1D5255B900212284 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A110220D1D5255B900212284 /* AboutViewController.m */; };
+		E5299E141D58F03F009B9AA2 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = E5299E131D58F03F009B9AA2 /* Classes */; };
+		E5299E161D58F06E009B9AA2 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = E5299E151D58F06E009B9AA2 /* Assets */; };
+		E5299E1C1D58F128009B9AA2 /* DownPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E5299E191D58F128009B9AA2 /* DownPicker.m */; };
+		E5299E1D1D58F128009B9AA2 /* UIDownPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E5299E1B1D58F128009B9AA2 /* UIDownPicker.m */; };
+		E5299E231D58F14F009B9AA2 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = E5299E1F1D58F14F009B9AA2 /* .gitkeep */; };
+		E5299E241D58F14F009B9AA2 /* downArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E5299E201D58F14F009B9AA2 /* downArrow.png */; };
+		E5299E251D58F14F009B9AA2 /* downArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5299E211D58F14F009B9AA2 /* downArrow@2x.png */; };
+		E5299E261D58F14F009B9AA2 /* downArrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5299E221D58F14F009B9AA2 /* downArrow@3x.png */; };
+		E5299E281D58F158009B9AA2 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = E5299E271D58F158009B9AA2 /* .gitkeep */; };
+		E5D4DFEB1D58D42A00E421CB /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D4DFEA1D58D42A00E421CB /* SWRevealViewController.m */; };
+		E5D4DFF11D58D8A200E421CB /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D4DFF01D58D8A200E421CB /* HelpViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,15 +65,26 @@
 		4EE902481964A28600AA3B42 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = RevealControllerStoryboardExample2/Default.png; sourceTree = SOURCE_ROOT; };
 		4EE902491964A28600AA3B42 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "RevealControllerStoryboardExample2/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
 		4EE9024D1964A29300AA3B42 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RevealControllerStoryboardExample2/main.m; sourceTree = SOURCE_ROOT; };
-		A11021FE1D523D2A00212284 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../../Downloads/SWRevealViewController-master 2/SWRevealViewController/SWRevealViewController.h"; sourceTree = "<group>"; };
-		A11021FF1D523D2A00212284 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../../Downloads/SWRevealViewController-master 2/SWRevealViewController/SWRevealViewController.m"; sourceTree = "<group>"; };
 		A11022011D524A6800212284 /* Female-heath-practitioner-in-hospital-room_Featured-Image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Female-heath-practitioner-in-hospital-room_Featured-Image.jpg"; sourceTree = SOURCE_ROOT; };
 		A11022061D5253F300212284 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchViewController.h; path = RevealControllerStoryboardExample2/SearchViewController.h; sourceTree = SOURCE_ROOT; };
 		A11022071D5253F300212284 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchViewController.m; path = RevealControllerStoryboardExample2/SearchViewController.m; sourceTree = SOURCE_ROOT; };
-		A11022091D52558C00212284 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelpViewController.h; path = RevealControllerStoryboardExample2/HelpViewController.h; sourceTree = SOURCE_ROOT; };
-		A110220A1D52558C00212284 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelpViewController.m; path = RevealControllerStoryboardExample2/HelpViewController.m; sourceTree = SOURCE_ROOT; };
 		A110220C1D5255B900212284 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = RevealControllerStoryboardExample2/AboutViewController.h; sourceTree = SOURCE_ROOT; };
 		A110220D1D5255B900212284 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = RevealControllerStoryboardExample2/AboutViewController.m; sourceTree = SOURCE_ROOT; };
+		E5299E131D58F03F009B9AA2 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
+		E5299E151D58F06E009B9AA2 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		E5299E181D58F128009B9AA2 /* DownPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownPicker.h; path = Classes/DownPicker.h; sourceTree = "<group>"; };
+		E5299E191D58F128009B9AA2 /* DownPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DownPicker.m; path = Classes/DownPicker.m; sourceTree = "<group>"; };
+		E5299E1A1D58F128009B9AA2 /* UIDownPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIDownPicker.h; path = Classes/UIDownPicker.h; sourceTree = "<group>"; };
+		E5299E1B1D58F128009B9AA2 /* UIDownPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIDownPicker.m; path = Classes/UIDownPicker.m; sourceTree = "<group>"; };
+		E5299E1F1D58F14F009B9AA2 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitkeep; path = Assets/.gitkeep; sourceTree = "<group>"; };
+		E5299E201D58F14F009B9AA2 /* downArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = downArrow.png; path = Assets/downArrow.png; sourceTree = "<group>"; };
+		E5299E211D58F14F009B9AA2 /* downArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "downArrow@2x.png"; path = "Assets/downArrow@2x.png"; sourceTree = "<group>"; };
+		E5299E221D58F14F009B9AA2 /* downArrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "downArrow@3x.png"; path = "Assets/downArrow@3x.png"; sourceTree = "<group>"; };
+		E5299E271D58F158009B9AA2 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitkeep; path = Classes/.gitkeep; sourceTree = "<group>"; };
+		E5D4DFE91D58D42A00E421CB /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = RevealControllerStoryboardExample2/SWRevealViewController.h; sourceTree = SOURCE_ROOT; };
+		E5D4DFEA1D58D42A00E421CB /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = RevealControllerStoryboardExample2/SWRevealViewController.m; sourceTree = SOURCE_ROOT; };
+		E5D4DFEF1D58D8A200E421CB /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = SOURCE_ROOT; };
+		E5D4DFF01D58D8A200E421CB /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +105,10 @@
 		01FB865A169E2D8B00A0A1A8 = {
 			isa = PBXGroup;
 			children = (
+				E5299E1E1D58F13C009B9AA2 /* Assets */,
+				E5299E171D58F10F009B9AA2 /* Classes */,
+				E5299E151D58F06E009B9AA2 /* Assets */,
+				E5299E131D58F03F009B9AA2 /* Classes */,
 				01FB866F169E2D8B00A0A1A8 /* RevealControllerStoryboardExample */,
 				01FB868C169E2DA500A0A1A8 /* SWRevealViewController */,
 				01FB8668169E2D8B00A0A1A8 /* Frameworks */,
@@ -128,10 +152,10 @@
 				01FB8670169E2D8B00A0A1A8 /* Supporting Files */,
 				A11022061D5253F300212284 /* SearchViewController.h */,
 				A11022071D5253F300212284 /* SearchViewController.m */,
-				A11022091D52558C00212284 /* HelpViewController.h */,
-				A110220A1D52558C00212284 /* HelpViewController.m */,
 				A110220C1D5255B900212284 /* AboutViewController.h */,
 				A110220D1D5255B900212284 /* AboutViewController.m */,
+				E5D4DFEF1D58D8A200E421CB /* HelpViewController.h */,
+				E5D4DFF01D58D8A200E421CB /* HelpViewController.m */,
 			);
 			path = RevealControllerStoryboardExample;
 			sourceTree = "<group>";
@@ -156,8 +180,8 @@
 		01FB868C169E2DA500A0A1A8 /* SWRevealViewController */ = {
 			isa = PBXGroup;
 			children = (
-				A11021FE1D523D2A00212284 /* SWRevealViewController.h */,
-				A11021FF1D523D2A00212284 /* SWRevealViewController.m */,
+				E5D4DFE91D58D42A00E421CB /* SWRevealViewController.h */,
+				E5D4DFEA1D58D42A00E421CB /* SWRevealViewController.m */,
 			);
 			name = SWRevealViewController;
 			path = ../SWRevealViewController;
@@ -168,6 +192,29 @@
 			children = (
 			);
 			name = iPad;
+			sourceTree = "<group>";
+		};
+		E5299E171D58F10F009B9AA2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E5299E271D58F158009B9AA2 /* .gitkeep */,
+				E5299E181D58F128009B9AA2 /* DownPicker.h */,
+				E5299E191D58F128009B9AA2 /* DownPicker.m */,
+				E5299E1A1D58F128009B9AA2 /* UIDownPicker.h */,
+				E5299E1B1D58F128009B9AA2 /* UIDownPicker.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		E5299E1E1D58F13C009B9AA2 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E5299E1F1D58F14F009B9AA2 /* .gitkeep */,
+				E5299E201D58F14F009B9AA2 /* downArrow.png */,
+				E5299E211D58F14F009B9AA2 /* downArrow@2x.png */,
+				E5299E221D58F14F009B9AA2 /* downArrow@3x.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,13 +270,20 @@
 			files = (
 				4EE9024B1964A28600AA3B42 /* Default.png in Resources */,
 				4EE902461964A27600AA3B42 /* reveal-icon.png in Resources */,
+				E5299E261D58F14F009B9AA2 /* downArrow@3x.png in Resources */,
+				E5299E241D58F14F009B9AA2 /* downArrow.png in Resources */,
 				4EE9024C1964A28600AA3B42 /* Default-568h@2x.png in Resources */,
+				E5299E231D58F14F009B9AA2 /* .gitkeep in Resources */,
 				A11022021D524A6800212284 /* Female-heath-practitioner-in-hospital-room_Featured-Image.jpg in Resources */,
+				E5299E251D58F14F009B9AA2 /* downArrow@2x.png in Resources */,
 				4EE9023F1964A22200AA3B42 /* MainStoryboard.storyboard in Resources */,
 				4EE902451964A27600AA3B42 /* reveal-icon@2x.png in Resources */,
 				4EE9024A1964A28600AA3B42 /* Default@2x.png in Resources */,
+				E5299E141D58F03F009B9AA2 /* Classes in Resources */,
 				4E00E29719659277007CA70B /* MainStoryboard-iPad.storyboard in Resources */,
+				E5299E161D58F06E009B9AA2 /* Assets in Resources */,
 				4EE9023D1964A22200AA3B42 /* InfoPlist.strings in Resources */,
+				E5299E281D58F158009B9AA2 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,10 +299,12 @@
 				4EE902341964A1DE00AA3B42 /* MenuViewController.m in Sources */,
 				4EE902421964A25D00AA3B42 /* ColorViewController.m in Sources */,
 				4EE9024E1964A29300AA3B42 /* main.m in Sources */,
+				E5D4DFEB1D58D42A00E421CB /* SWRevealViewController.m in Sources */,
 				4EE9022C1964A14200AA3B42 /* AppDelegate.m in Sources */,
-				A11022001D523D2A00212284 /* SWRevealViewController.m in Sources */,
+				E5299E1D1D58F128009B9AA2 /* UIDownPicker.m in Sources */,
+				E5D4DFF11D58D8A200E421CB /* HelpViewController.m in Sources */,
 				A11022081D5253F300212284 /* SearchViewController.m in Sources */,
-				A110220B1D52558C00212284 /* HelpViewController.m in Sources */,
+				E5299E1C1D58F128009B9AA2 /* DownPicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

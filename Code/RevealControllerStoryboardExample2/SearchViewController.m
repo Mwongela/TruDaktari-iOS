@@ -7,8 +7,13 @@
 //
 
 #import "SearchViewController.h"
+#import "UIDownPicker.h"
+#import "DownPicker.h"
 
-@interface SearchViewController ()
+@interface SearchViewController (){
+    UIDownPicker *_dp;
+    
+}
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *revealButtonItem;
 
 //@property (nonatomic) IBOutlet UIBarButtonItem* revealButtonItem;
@@ -16,10 +21,17 @@
 
 @implementation SearchViewController
 
+
 - (void)viewDidLoad
 {
+    NSArray *germanMakes = @[@"Mercedes-Benz", @"BMW", @"Porsche",
+                             @"Opel", @"Volkswagen", @"Audi"];
     [super viewDidLoad];
     [self customSetup];
+    //_dp = [[UIDownPicker initWithData: germanMakes];
+    //_dp = [[UIDownPicker] initWithData:germanMakes];
+    [self.view addSubview:_dp];
+    
 }
 
 

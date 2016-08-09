@@ -2,7 +2,7 @@
 //  HelpViewController.h
 //  TruDaktari
 //
-//  Created by ilabadmin on 8/3/16.
+//  Created by ilabafrica on 08/08/2016.
 //  Copyright © 2016 CoDeveloper. All rights reserved.
 //
 
