@@ -27,6 +27,12 @@
 		A11022021D524A6800212284 /* Female-heath-practitioner-in-hospital-room_Featured-Image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A11022011D524A6800212284 /* Female-heath-practitioner-in-hospital-room_Featured-Image.jpg */; };
 		A11022081D5253F300212284 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A11022071D5253F300212284 /* SearchViewController.m */; };
 		A110220E1D5255B900212284 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A110220D1D5255B900212284 /* AboutViewController.m */; };
+		A16074C61D5A1072008B96C6 /* TruDaktari-large.png in Resources */ = {isa = PBXBuildFile; fileRef = A16074C51D5A1072008B96C6 /* TruDaktari-large.png */; };
+		A16074CA1D5A1482008B96C6 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = A16074C71D5A1482008B96C6 /* email.png */; };
+		A16074CB1D5A1482008B96C6 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = A16074C81D5A1482008B96C6 /* facebook.png */; };
+		A16074CC1D5A1482008B96C6 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = A16074C91D5A1482008B96C6 /* twitter.png */; };
+		A16074CF1D5A18D8008B96C6 /* faq.png in Resources */ = {isa = PBXBuildFile; fileRef = A16074CD1D5A18D8008B96C6 /* faq.png */; };
+		A16074D01D5A18D8008B96C6 /* forum.png in Resources */ = {isa = PBXBuildFile; fileRef = A16074CE1D5A18D8008B96C6 /* forum.png */; };
 		E5299E141D58F03F009B9AA2 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = E5299E131D58F03F009B9AA2 /* Classes */; };
 		E5299E161D58F06E009B9AA2 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = E5299E151D58F06E009B9AA2 /* Assets */; };
 		E5299E1C1D58F128009B9AA2 /* DownPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E5299E191D58F128009B9AA2 /* DownPicker.m */; };
@@ -70,6 +76,12 @@
 		A11022071D5253F300212284 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchViewController.m; path = RevealControllerStoryboardExample2/SearchViewController.m; sourceTree = SOURCE_ROOT; };
 		A110220C1D5255B900212284 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = RevealControllerStoryboardExample2/AboutViewController.h; sourceTree = SOURCE_ROOT; };
 		A110220D1D5255B900212284 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = RevealControllerStoryboardExample2/AboutViewController.m; sourceTree = SOURCE_ROOT; };
+		A16074C51D5A1072008B96C6 /* TruDaktari-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TruDaktari-large.png"; sourceTree = SOURCE_ROOT; };
+		A16074C71D5A1482008B96C6 /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = SOURCE_ROOT; };
+		A16074C81D5A1482008B96C6 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = SOURCE_ROOT; };
+		A16074C91D5A1482008B96C6 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = SOURCE_ROOT; };
+		A16074CD1D5A18D8008B96C6 /* faq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faq.png; sourceTree = SOURCE_ROOT; };
+		A16074CE1D5A18D8008B96C6 /* forum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forum.png; sourceTree = SOURCE_ROOT; };
 		E5299E131D58F03F009B9AA2 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 		E5299E151D58F06E009B9AA2 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
 		E5299E181D58F128009B9AA2 /* DownPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownPicker.h; path = Classes/DownPicker.h; sourceTree = "<group>"; };
@@ -163,6 +175,12 @@
 		01FB8670169E2D8B00A0A1A8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A16074CD1D5A18D8008B96C6 /* faq.png */,
+				A16074CE1D5A18D8008B96C6 /* forum.png */,
+				A16074C71D5A1482008B96C6 /* email.png */,
+				A16074C81D5A1482008B96C6 /* facebook.png */,
+				A16074C91D5A1482008B96C6 /* twitter.png */,
+				A16074C51D5A1072008B96C6 /* TruDaktari-large.png */,
 				A11022011D524A6800212284 /* Female-heath-practitioner-in-hospital-room_Featured-Image.jpg */,
 				4EE9022D1964A15800AA3B42 /* TruDaktari-Prefix.pch */,
 				4EE9022E1964A15800AA3B42 /* TruDaktari-Info.plist */,
@@ -270,8 +288,12 @@
 			files = (
 				4EE9024B1964A28600AA3B42 /* Default.png in Resources */,
 				4EE902461964A27600AA3B42 /* reveal-icon.png in Resources */,
+				A16074C61D5A1072008B96C6 /* TruDaktari-large.png in Resources */,
+				A16074D01D5A18D8008B96C6 /* forum.png in Resources */,
+				A16074CF1D5A18D8008B96C6 /* faq.png in Resources */,
 				E5299E261D58F14F009B9AA2 /* downArrow@3x.png in Resources */,
 				E5299E241D58F14F009B9AA2 /* downArrow.png in Resources */,
+				A16074CB1D5A1482008B96C6 /* facebook.png in Resources */,
 				4EE9024C1964A28600AA3B42 /* Default-568h@2x.png in Resources */,
 				E5299E231D58F14F009B9AA2 /* .gitkeep in Resources */,
 				A11022021D524A6800212284 /* Female-heath-practitioner-in-hospital-room_Featured-Image.jpg in Resources */,
@@ -281,7 +303,9 @@
 				4EE9024A1964A28600AA3B42 /* Default@2x.png in Resources */,
 				E5299E141D58F03F009B9AA2 /* Classes in Resources */,
 				4E00E29719659277007CA70B /* MainStoryboard-iPad.storyboard in Resources */,
+				A16074CA1D5A1482008B96C6 /* email.png in Resources */,
 				E5299E161D58F06E009B9AA2 /* Assets in Resources */,
+				A16074CC1D5A1482008B96C6 /* twitter.png in Resources */,
 				4EE9023D1964A22200AA3B42 /* InfoPlist.strings in Resources */,
 				E5299E281D58F158009B9AA2 /* .gitkeep in Resources */,
 			);

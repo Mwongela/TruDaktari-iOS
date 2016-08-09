@@ -11,27 +11,29 @@
 #import "DownPicker.h"
 
 @interface SearchViewController (){
-    UIDownPicker *_dp;
+    NSArray *_pickerData;
     
 }
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *revealButtonItem;
+@property (weak, nonatomic) IBOutlet UIPickerView *picker;
 
-//@property (nonatomic) IBOutlet UIBarButtonItem* revealButtonItem;
 @end
 
 @implementation SearchViewController
 
 
+
+
 - (void)viewDidLoad
 {
-    NSArray *germanMakes = @[@"Mercedes-Benz", @"BMW", @"Porsche",
-                             @"Opel", @"Volkswagen", @"Audi"];
+    
     [super viewDidLoad];
     [self customSetup];
-    //_dp = [[UIDownPicker initWithData: germanMakes];
-    //_dp = [[UIDownPicker] initWithData:germanMakes];
-    [self.view addSubview:_dp];
     
+    _pickerData = @[@"Doctor", @"Health facility"];
+    
+    self.picker.dataSource = self;
+    self.picker.delegate = self;
 }
 
 
@@ -45,6 +47,24 @@
         [self.navigationController.navigationBar addGestureRecognizer:revealViewController.panGestureRecognizer];
     }
     
+}
+
+// The number of columns of data
+- (int)numberOfComponentsInPickerView:(UIPickerView *)pickerView
+{
+    return 1;
+}
+
+// The number of rows of data
+- (int)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component
+{
+    return _pickerData.count;
+}
+
+// The data to return for the row and component (column) that's being passed in
+- (NSString*)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component
+{
+    return _pickerData[row];
 }
 
 
